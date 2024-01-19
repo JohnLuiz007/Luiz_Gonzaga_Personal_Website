@@ -22,7 +22,9 @@ How is your website creative?
 It is creative because I used unique elements to display the contents. While at first glance it is not much, you could see the the creativity when you brose its background and contents. 
 
 What did you use to deploy your website?
-Netlify.
+Github pages.
+
+
 Insights that you have gathered while accomplishing LT0, LT1, and M1M2 (Guided Exercise 1)
 That HTML and CSS could deceptively be difficult because of formatting and the number of ways
 you could create or do certain tasks. It not just about the design but also the implementation on how
