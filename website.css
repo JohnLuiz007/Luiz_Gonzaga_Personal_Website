@@ -1,0 +1,123 @@
+.common-bg-container {
+    background: url('Welcome To The Twilight Zone.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 900px;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+.instagram-logo img,
+.fb_logo img {
+    max-width: 400px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    animation: bounce 1s infinite;
+}
+
+.empty {
+    width: 15%;
+    height: 700px;
+}
+
+.pfp {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.pfp img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.summary-words {
+    color: white;
+    width: 55%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.texty {
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.github-btn {
+    width: 60px;
+    height: 60px;
+}
+
+.card-image {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+    color: white;
+    background-color: black;
+}
+
+.spoiler-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.row-holder {
+    background: url('Beach Sunrise GIF.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+@keyframes throb {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.throbbing-button {
+    width: 80px;
+    height: 80px;
+    animation: throb 1s infinite;
+}
+
+@media (max-width: 200px) {
+    .responsive-button {
+        width: 20%;
+        min-width: 50px;
+    }
+}
